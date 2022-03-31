@@ -6,7 +6,7 @@
     position: relative;
     padding: 1px 100px;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .container ul:before {
@@ -64,7 +64,7 @@
 .container div .title,
 .container div .type {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .container div .info {
@@ -81,15 +81,15 @@
 
 .container span.number span {
     position: absolute;
-    font-size: 10px;
-    left: -35px;
+    font-size: 14px;
+    left: -50px;
     font-weight: bold;
 }
 
 .container span.number span:first-child {
-    top: 0;
+    top: -3px;
 }
 
 .container span.number span:last-child {
-    top: 100%;
+    bottom: -15px;
 }
